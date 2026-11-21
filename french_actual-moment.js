@@ -1,0 +1,1 @@
+const d = new Date(); console.log("\x1b[36m--- MOMENT ACTUEL ---\x1b[0m"); console.log("Date : " + d.toLocaleDateString()); console.log("Heure : " + d.toLocaleTimeString()); console.log("Jour : " + d.toLocaleString('fr-FR', { weekday: 'long' })); console.log("Timestamp : " + d.getTime());
