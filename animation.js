@@ -1,3 +1,4 @@
+// not working on debug.execute
 const { stdout } = process;
 
 const COLORS = {
